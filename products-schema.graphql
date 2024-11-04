@@ -88,8 +88,6 @@ type Product @key(fields: "sku") @key(fields: "id") {
   price: Float!
   attributes: [Attribute]
   variants: [ProductVariant]
-  featured: Boolean!
-  shortDescription: String
 }
 
 type Attribute {
